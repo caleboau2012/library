@@ -1,7 +1,7 @@
 <?php
 	
-	mysql_connect("localhost", "calebcom_root", "prince");
-	mysql_select_db("calebcom_library");
+	mysql_connect("localhost", "root", "");
+	mysql_select_db("library");
 		
 //	$contents = file_get_contents("txt_files/Datad_2.txt");
 //	$contents = file_get_contents("txt_files/Library School IT2010.txt");
