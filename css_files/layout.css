@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, section, article, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, span, em, strong, img, ol, ul, li, video, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align:baseline;
+	font: inherit;
+}
+
+/*html5 display rule*/
+address, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, nav, menu, nav, section, summary {
+	display: block;
+}
+img {
+	float: left;
+}
+
+body {
+	font: 90% Arial, Helvetica, sans-serif;
+	width: 640px;
+	margin: 0 auto;
+}
+
+.searchbar {
+	width: 70%;
+	margin: 16em auto;
+	/*background-color:#CCC;*/
+}
+
+.search {
+	width: 70%;
+	margin: 1px auto;
+	/*background-color:#CCC;*/
+}
+
+h1{
+	font-family:arial;
+	font-size:1.45em;
+	color:#555;
+	padding-top: 10%;
+}
+
+h2{
+	font-family:arial;
+	font-size:1.5em;
+	color:#999;
+	width: 9em;
+	padding: 10px 0px 10px 40% ;
+}
+
+.input {
+	width: 80%;
+	height: 1.5em;
+	margin: 5% 0 5% 5%;
+}
+
+.button {
+	color: #666;
+	float:right;
+	margin-top: 5%;
+}
+
+.searchbar div{
+	width: 225px;
+	margin: 0 auto 0;
+	/*background-color:#CCC;*/
+}
+
+.search div{
+	width: 225px;
+	margin: 0 auto 0;
+	/*background-color:#CCC;*/
+}
+.result li{
+	padding: 20px 10px;
+}
